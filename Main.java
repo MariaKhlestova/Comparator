@@ -24,8 +24,8 @@ public class Main {
     }
 
     public static void testDateComparator() {
-        int result1 = Employee.compareDate(2025, 11, 23, 2024, 10, 24);
-        System.out.println("Сравнение 2025-11-23 и 2024-10-24: " + result1);
+        int result1 = Employee.compareDate(2024, 10, 24, 2025, 11, 23);
+        System.out.println("Сравнение 2024-10-24 и 2025-11-23: " + result1);
 
         int result2 = Employee.compareDate(2023, 12, 12, 2023, 12, 12);
         System.out.println("Сравнение 2023-12-12 и 2023-12-12: " + result2);
